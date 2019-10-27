@@ -2,7 +2,7 @@
 <#@ import namespace="System.IO" #>
 <#@ output extension=".cs" #>
 
-<#@ assembly name="EnvDTE" #><# /* This assembly provides access to Visual Studio project properties. */ #>
+
 <#
 
 	// Instructions
@@ -27,7 +27,8 @@
 	int i2 = 0;
 	string s;
 
-	string versionfile =  @"D:\Users\jbb\github\ksp_toolbar\Toolbar.version";
+	// string versionfile =  @"D:\Users\jbb\github\ksp_toolbar\Toolbar.version";
+	string versionfile = this.Host.ResolvePath(@"..\Toolbar.version");
 	if (!File.Exists(versionfile))
 	{
 		Write("File: " + versionfile + " missing\n");		

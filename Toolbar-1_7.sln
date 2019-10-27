@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestButtons", "TestButtons\TestButtons.csproj", "{BDDFDD67-E023-41EA-B8F1-559996B9ADAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wrapper", "Wrapper\Wrapper.csproj", "{E258AB2C-E2BB-4ACA-B902-C98582041F69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{293FCA15-B1A7-48B1-80A4-85B8C1175783}"
+	ProjectSection(SolutionItems) = preProject
+		buildRelease.bat = buildRelease.bat
+		Changelog.txt = Changelog.txt
+		deploy.bat = deploy.bat
+		jenkins.txt = jenkins.txt
+		README.md = README.md
+		Toolbar.version = Toolbar.version
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbar-1_7", "Toolbar\Toolbar-1_7.csproj", "{E48DD7E6-5016-4ECF-A2C8-73A40BEAC326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickThroughBlocker-1_7", "..\..\ClickThroughBlocker-master\ClickThroughBlocker\ClickThroughBlocker\ClickThroughBlocker-1_7.csproj", "{98F60AB0-2D4D-479D-A77D-B2555934D443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dummy|Any CPU = Dummy|Any CPU
+		Release, dummy|Any CPU = Release, dummy|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDDFDD67-E023-41EA-B8F1-559996B9ADAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDFDD67-E023-41EA-B8F1-559996B9ADAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDFDD67-E023-41EA-B8F1-559996B9ADAE}.Dummy|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDFDD67-E023-41EA-B8F1-559996B9ADAE}.Dummy|Any CPU.Build.0 = Debug|Any CPU
+		{BDDFDD67-E023-41EA-B8F1-559996B9ADAE}.Release, dummy|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDFDD67-E023-41EA-B8F1-559996B9ADAE}.Release, dummy|Any CPU.Build.0 = Release|Any CPU
+		{BDDFDD67-E023-41EA-B8F1-559996B9ADAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E258AB2C-E2BB-4ACA-B902-C98582041F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E258AB2C-E2BB-4ACA-B902-C98582041F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E258AB2C-E2BB-4ACA-B902-C98582041F69}.Dummy|Any CPU.ActiveCfg = Debug|Any CPU
+		{E258AB2C-E2BB-4ACA-B902-C98582041F69}.Dummy|Any CPU.Build.0 = Debug|Any CPU
+		{E258AB2C-E2BB-4ACA-B902-C98582041F69}.Release, dummy|Any CPU.ActiveCfg = Release|Any CPU
+		{E258AB2C-E2BB-4ACA-B902-C98582041F69}.Release, dummy|Any CPU.Build.0 = Release|Any CPU
+		{E258AB2C-E2BB-4ACA-B902-C98582041F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48DD7E6-5016-4ECF-A2C8-73A40BEAC326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48DD7E6-5016-4ECF-A2C8-73A40BEAC326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48DD7E6-5016-4ECF-A2C8-73A40BEAC326}.Dummy|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48DD7E6-5016-4ECF-A2C8-73A40BEAC326}.Dummy|Any CPU.Build.0 = Debug|Any CPU
+		{E48DD7E6-5016-4ECF-A2C8-73A40BEAC326}.Release, dummy|Any CPU.ActiveCfg = Release|Any CPU
+		{E48DD7E6-5016-4ECF-A2C8-73A40BEAC326}.Release, dummy|Any CPU.Build.0 = Release|Any CPU
+		{E48DD7E6-5016-4ECF-A2C8-73A40BEAC326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48DD7E6-5016-4ECF-A2C8-73A40BEAC326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F60AB0-2D4D-479D-A77D-B2555934D443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F60AB0-2D4D-479D-A77D-B2555934D443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F60AB0-2D4D-479D-A77D-B2555934D443}.Dummy|Any CPU.ActiveCfg = Dummy|Any CPU
+		{98F60AB0-2D4D-479D-A77D-B2555934D443}.Dummy|Any CPU.Build.0 = Dummy|Any CPU
+		{98F60AB0-2D4D-479D-A77D-B2555934D443}.Release, dummy|Any CPU.ActiveCfg = Release, dummy|Any CPU
+		{98F60AB0-2D4D-479D-A77D-B2555934D443}.Release, dummy|Any CPU.Build.0 = Release, dummy|Any CPU
+		{98F60AB0-2D4D-479D-A77D-B2555934D443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F60AB0-2D4D-479D-A77D-B2555934D443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29A7462E-D1F5-4C97-8CFA-1604D1C86025}
+	EndGlobalSection
+EndGlobal
